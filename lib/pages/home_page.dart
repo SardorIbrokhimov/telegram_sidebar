@@ -26,126 +26,37 @@ class _HomePageState extends State<HomePage> {
           SizedBox(
             height: 10,
           ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
+          Container(
+            padding: EdgeInsets.only(left: 10),
+            child: Row(
+              children: [
+
+                CircleAvatar(
+                  radius: 25,
+                  backgroundImage: NetworkImage(
+                      "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  children: [
+
+                    Text("Young IT",style: TextStyle(fontSize: 20),),
+                    Text("iuhi"),
+                  ],
+                ),
+                Expanded(child: Container(
+                  color: Colors.yellow,
+                ),),
+
+
+              ],
             ),
-            title: Text(" "),
           ),
           Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: NetworkImage(
-                  "https://i.pinimg.com/236x/bb/cd/19/bbcd19acda4415459da1ed6fce440f33.jpg"),
-            ),
-            title: Text(" "),
-          ),
-                     Divider(
-            color: Colors.red,
+            color: Colors.black,
+            thickness: 2,
           ),
         ],
       ),
