@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:telegram_sidebar/pages/new_group.dart';
+import 'package:telegram_sidebar/pages/saved_messages.dart';
 
 class SideBar extends StatefulWidget {
   static const String id = "sidebar";
@@ -36,7 +38,9 @@ class _SideBarState extends State<SideBar> {
           ListTile(
             leading: Icon(Icons.group),
             title: Text("New Group"),
-            onTap: (){},
+            onTap: (){
+              Navigator.pushReplacementNamed(context, NewGroup.id);
+            },
           ),
           ListTile(
             leading: Icon(Icons.person),
@@ -51,7 +55,9 @@ class _SideBarState extends State<SideBar> {
           ListTile(
             leading: Icon(Icons.bookmark),
             title: Text("Saved"),
-            onTap: (){},
+            onTap: (){
+              Navigator.pushReplacementNamed(context, Saved.id);
+            },
           ),
           ListTile(
             leading: Icon(Icons.settings),

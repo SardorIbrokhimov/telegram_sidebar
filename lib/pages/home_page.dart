@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                 Column(
                   children: [
 
-                    Text("Young IT",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                    Text(" Saved Messages",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
                     Text(""),
                   ],
                 ),
@@ -202,6 +202,13 @@ class _HomePageState extends State<HomePage> {
 
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+
+        },
+        child: Icon(Icons.edit),
+      ),
+
     );
   }
 }
